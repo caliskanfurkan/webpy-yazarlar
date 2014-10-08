@@ -1,0 +1,5 @@
+$def with (yazilar)
+<ul>
+$for yazi in yazilar:
+    <a href="/DetayGor/$yazi.ID"><li id="$yazi.ID">$yazi.baslik</li></a>
+</ul>
